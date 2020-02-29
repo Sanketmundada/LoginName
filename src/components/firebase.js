@@ -1,7 +1,7 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC9MP7GtOQQe1QHr07CbSdduBh0MEOZRkU",
+  apiKey: process.env.REACT_API_KEY,
   authDomain: "sanform-17085.firebaseapp.com",
   databaseURL: "https://sanform-17085.firebaseio.com",
   projectId: "sanform-17085",
